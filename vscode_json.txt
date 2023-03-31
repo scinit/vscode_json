@@ -1,0 +1,78 @@
+{
+    "editor.fontSize": 18,
+    "editor.cursorBlinking": "solid",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.inlineSuggest.enabled": true,
+    "files.autoSave": "afterDelay",
+    // "editor.fontLigatures": false,
+    "editor.fontWeight": "normal",
+    "editor.tokenColorCustomizations": {
+        "comments": "#808080"
+    },
+    "editor.mouseWheelZoom": true,
+
+
+    "matlab.mlintpath": "C:/Program Files/MATLAB/R2022a/bin/win64/mlint.exe",
+    "matlab.matlabpath": "C:/Program Files/MATLAB/R2022a/bin/matlab.exe",
+    "files.associations": {"*.m": "matlab"},
+    "[matlab]": { "files.encoding": "utf8" },
+
+    "code-runner.executorMap":{
+        "matlab": "cd $dir && matlab -nosplash -nodesktop -r $fileNameWithoutExt",
+        "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt",
+    },
+    "code-runner.defaultLanguage": "utf8",
+    "code-runner.runInTerminal": true,
+
+    "files.autoGuessEncoding": true,
+    "editor.semanticTokenColorCustomizations": {
+    
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.foreground": "#999999",
+        "statusBar.background" : "#373738",
+        "statusBar.noFolderBackground" : "#008cff",
+        "statusBar.debuggingBackground": "#008cff"
+    },
+    "window.zoomLevel": 1,  // 缩放
+
+    "editor.fontFamily": "Cascadia Code, Consolas, Microsoft YaHei",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "off",
+    "update.enableWindowsBackgroundUpdates": false,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "files.exclude": {
+        "**/.vscode": true,
+        "**/*.class": true,
+        "**/*.jar": true
+    },
+    // "workbench.iconTheme": "vscode-icons",
+
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:/Program Files/RedHat/java-1.8.0-openjdk-1.8.0.362-1",
+        }
+    ],
+
+    "workbench.editor.wrapTabs": true,
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "matlab-formatter.separateBlocks": false,
+    "workbench.editor.enablePreview": false,
+    
+    // "code-runner.executorMap":{
+    //     "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt",
+    // },
+    // "code-runner.runInTerminal": true,
+    // "kotlin.debugAdapter.path":"https://github.com/fwcd/kotlin-debug-adapter",
+}
